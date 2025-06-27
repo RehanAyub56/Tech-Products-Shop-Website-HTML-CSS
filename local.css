@@ -1,0 +1,48 @@
+#localbrand{
+height: 180px;
+background-color: blue;
+text-align: center;
+padding: 6px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+nav{
+ width: 70%;
+
+}
+#navbar{
+   display: flex;
+    justify-content: center; 
+    margin: 20px;
+}
+
+ul{
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   box-sizing: border-box;
+   
+    margin: 10px;
+
+}
+li{
+border: black solid 3px;
+box-sizing: border-box;
+ 
+padding: 5px 10px 5px 10px; border-radius: 6px;
+ background-color: rgb(31, 85, 177);
+
+}
+.list1{
+ color: white;
+ text-decoration: none;
+    
+}

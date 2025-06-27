@@ -1,0 +1,205 @@
+#backi{
+        width: 100%;
+        height: 2450px;;
+        background-image: url("image/back.jpg"); 
+        background-size: cover; 
+        background-position: center;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start;
+        
+    }
+    #latest{
+        background-color: rgb(54, 54, 224);
+        color: mintcream;
+        width: 350px;
+        font-weight: bold;
+        border-radius: 50%;
+        font-size: 18px;
+        text-align: center;
+        padding: 17px;
+        position: absolute;
+        top: 20px;
+        left: 80px;
+        
+        animation: latest 1s ease 1s infinite forwards,size 1s infinite;
+    }
+    @keyframes latest{
+        0%{
+            transform: translateY(-30px);
+        }
+        30%{
+            transform: translateY(-20px);
+        }
+            50%{
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(10px);
+            }
+        }
+        @keyframes size{
+            0%{
+                color: rgba(255, 255, 255, 1);
+                
+            }
+                50%{
+                    color: rgba(255, 255, 255, 0.3);
+                   
+                }
+                100% {
+                    color: rgba(255, 255, 255, 1);
+                    
+            } }
+            #we{
+                position: absolute;
+                top: 130px;
+                left: 40px;
+                text-align: center;
+                width: 1250px;
+                z-index: 1; 
+    position: relative;
+            }
+            #accordion{
+                border: 4px double black;
+                position: absolute;
+                border-radius: 10px;
+                top: 230px;
+                left: 110px;
+                width: 1100px;
+                overflow: hidden;
+                z-index: 1; 
+    position: relative;
+            }
+            #accordionitems{
+                border-bottom: 1px solid black;   
+            }
+            #accordion-header{
+                height: 300px;
+                font-weight: bold;
+                cursor: pointer;
+                padding: 1px;
+            }
+            #accordion-header:hover{
+                background: #eaeaea;
+            }
+            #accordioncontent{
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: #a3d2d8;
+            padding: 0 1px;
+            }
+            input[type="cheakbox"]{
+                display: none;
+            }
+        input[type="checkbox"]:checked + #accordion-header + #accordioncontent {
+            max-height: 200px;
+            padding: 5px;
+        }
+        #caro{
+            position: relative;
+            top: 300px;
+            text-align: center;
+            font-size: 18px;
+            height: 800px;         
+        }
+#slider {
+    width: 600px;
+    border: 4px double black;
+    justify-content: center;
+    overflow: hidden; 
+    position: relative;
+    left: 27.5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  #sliderinner {
+    display: flex;
+    width: 600px; 
+    animation: slide-animation 18s infinite; 
+  } 
+  .slideritems {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+  }  
+  .slideritems img {
+    width: 600px;
+    height: 600px;
+    display: block;
+    object-fit: cover;
+  }
+  @keyframes slide-animation {
+    0% {
+      transform: translateX(0%);
+    }
+    10% {
+      transform: translateX(-100%); 
+    }
+    20% {
+      transform: translateX(-200%); 
+    }
+    30% {
+        transform: translateX(-300%);
+      }
+    40% {
+      transform: translateX(-400%); 
+    }
+    50% {
+        transform: translateX(-500%); 
+      }
+      60% {
+        transform: translateX(-600%); 
+      }
+      70% {
+        transform: translateX(-700%); 
+      }
+      80% {
+        transform: translateX(-800%); 
+      }
+      90% {
+        transform: translateX(-900%); 
+      }
+      100% {
+        transform: translateX(-1000%); 
+      }
+    }
+    
+nav{
+ width: 70%;
+
+}
+#navbar{
+   display: flex;
+    justify-content: center; 
+    position: relative;
+    top: 120px;
+}
+
+ul{
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   box-sizing: border-box;
+   
+    margin: 10px;
+
+}
+li{
+border: black solid 3px;
+box-sizing: border-box;
+padding: 5px 10px 5px 10px;
+ border-radius: 6px;
+ background-color: rgb(31, 85, 177);
+
+}
+.list1{
+ color: white;
+ text-decoration: none;
+    
+}

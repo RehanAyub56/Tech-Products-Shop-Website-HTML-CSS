@@ -1,0 +1,116 @@
+.boundries{
+    border: 4px double black;
+    border-width: 8px;
+    padding: 20px;
+    margin:20px auto;
+    max-width: 1448px;
+    height: 1200px; 
+}
+#welcome { 
+    background-color: rgb(73, 95, 221);
+    height: 180px;
+    width: 102.5%;
+    position: relative;
+    right: 20px;
+    text-shadow:#614209;
+    transform: translateY(-20px);
+    font-size: 17px;
+    font-family: 'Exo 2', sans-serif;
+    animation: transitionEffect 10s ease-in-out infinite;
+}
+@keyframes transitionEffect{
+    0%{
+        background-color: rgb(16, 45, 211);
+        font-size: 17px; 
+    }
+    50%{
+        background-color: #674292;
+        font-size: 16px;
+        text-shadow: 2px 2px 5px gray;
+    }
+    100%{
+        background-color: rgb(16, 45, 211);
+        text-shadow:#614209; 
+        font-size: 17px;
+    }
+}
+.button{
+background-color: #a3bbd4;
+color: black;
+padding: 5px 10px;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease;
+animation: fadeIn 2s ease;
+}
+.button:hover{
+    transform: scale(1.06);
+    background-color:whitesmoke;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+        transform: translateY(-5px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+#para{
+
+    transform: translateY(0px);
+    position: relative;
+    right: -35px;
+    max-width: 1250px;
+    word-spacing: 4px;
+
+}
+
+#header{
+    background-color: rgb(211, 223, 235);
+    height: 300px;
+}
+#end{
+    color: white;
+    background-color:rgb(7, 6, 6);
+    height: 30px;
+    text-align:center;
+    height: 35px;
+    transform:translateY(-30px);}
+
+nav{
+ width: 70%;
+
+}
+#navbar{
+   display: flex;
+    justify-content: center; 
+}
+
+ul{
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   box-sizing: border-box;
+   
+    margin: 10px;
+
+}
+li{
+border: black solid 3px;
+box-sizing: border-box;
+padding: 5px 10px 5px 10px;
+ border-radius: 6px;
+ background-color: rgb(31, 85, 177);
+
+}
+.list1{
+ color: white;
+ text-decoration: none;
+    
+}

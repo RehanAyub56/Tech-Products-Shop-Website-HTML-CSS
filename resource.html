@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="resourse.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Center</title>
+</head>
+<body>
+    <div class="boundries22">
+        <header id="welcome">
+            <br>
+            <h1 style="text-align: center;">Resource Center</h1>
+            <h4 style="text-align: center;">"Find Useful Links and Information"</h4>
+        </header>
+
+
+        <div id="navbar">
+   <nav>
+<ul type="none" id="list">
+     <li><a href="index.html" class="list1">Home</a></li>
+    <li><a href="community.html" class="list1">Community News</a></li>
+    <li><a href="events.html" class="list1">Events</a></li>
+    <li><a href="local.html" class="list1">Local Business </a></li>
+   
+    <li><a href="contact.html" class="list1">Contact Us</a></li>
+
+</ul>
+
+   </nav>
+   </div>
+        
+        <main>
+            <div class="parentdiv">
+            <div class="tabs">
+                <button class="tab-button" onclick="openTab('education')">Education</button>
+                <button class="tab-button" onclick="openTab('health')">Health</button>
+                <button class="tab-button" onclick="openTab('business')">Business</button>
+            </div>
+            </div>
+            <div id="education" class="tab-content">
+                <h3 id="edu">Educational Resources</h3>
+                <div class="button22" > 
+               <a href="https://www.khanacademy.org"  class="button3">Khan Academy</a>
+               <a href="https://www.apnacollege.in/"  class="button3">Apna College</a>
+               <a href="https://www.coursera.org"  class="button3">Coursera</a>
+                    
+            </div>
+        </div>
+
+        <div id="health" class="tab-content" style="display:none;">
+            <h3 id="edu">Health Resources</h3>
+            <div class="button22"> 
+
+                <a href="https://www.who.int"  class=" button5">World Health Organization</a>
+               <a href="https://www.webmd.com"  class="button3">WebMD</a>
+               <a href="https://www.mayoclinic.org"  class="button3">Mayo Clinic</a>
+           
+        </div>
+    </div>
+
+
+
+    
+    <div id="business" class="tab-content" style="display:none;">
+        <h3 id="edu">Business Resources</h3>
+        <div class="button22"> 
+       
+                <a href="https://www.sba.gov"  class=" button5">Small Business Administration</a>
+               <a href="https://www.forbes.com"  class="button3">Forbes</a>
+               <a href="https://www.businessinsider.com"  class="button3">Business Insider</a>
+
+
+    </div>
+</div>
+
+
+        </main>
+        
+        <footer id="end2">
+            <h6>@ 2024 Rehan Ayub All rights Reserved <br>
+            <a href="https://www.linkedin.com/in/rehan-ayub-b1b710283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkdin</a> | <a href="https://github.com/RehanAyub56">GitHub</a>
+            |<a href="03325314888">Contact me</a></h6>
+        </footer>
+    </div>
+    
+    <script>
+        function openTab(tabName) {
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => content.style.display = 'none');
+            document.getElementById(tabName).style.display = 'block';
+        }
+    </script>
+</body>
+</html>

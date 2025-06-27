@@ -1,0 +1,129 @@
+    /* .......................... Page 1 start ......................*/
+
+.boundries{
+    border: 4px double black;
+    border-width: 8px;
+    padding: 20px;
+    margin:20px auto;
+    max-width: 1448px;
+    height: 1200px; 
+}
+#welcome { 
+    background-color: rgb(73, 95, 221);
+    height: 180px;
+    width: 102.5%;
+    position: relative;
+    right: 20px;
+    text-shadow:#614209;
+    transform: translateY(-20px);
+    font-size: 17px;
+    font-family: 'Exo 2', sans-serif;
+    animation: transitionEffect 10s ease-in-out infinite;
+}
+@keyframes transitionEffect{
+    0%{
+        background-color: rgb(16, 45, 211);
+        font-size: 17px; 
+    }
+    50%{
+        background-color: #674292;
+        font-size: 16px;
+        text-shadow: 2px 2px 5px gray;
+    }
+    100%{
+        background-color: rgb(16, 45, 211);
+        text-shadow:#614209; 
+        font-size: 17px;
+    }
+}
+.button{
+background-color: #a3bbd4;
+color: black;
+padding: 5px 10px;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease;
+animation: fadeIn 2s ease;
+}
+.button:hover{
+    transform: scale(1.06);
+    background-color:whitesmoke;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+        transform: translateY(-5px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+#header{
+    background-color: rgb(211, 223, 235);
+    height: 300px;
+}
+#end{
+    color: white;
+    background-color:rgb(7, 6, 6);
+    height: 30px;
+    text-align:center;
+    height: 35px;
+    transform:translateY(-30px);}
+
+
+    /* .......................... Page 1 End ......................*/
+
+    /* .......................... Page 2 start ......................*/
+    
+  
+     /* .......................... Page 2 End ......................*/
+
+     /* .......................... Page 3 start ......................*/
+
+     .event-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    .event-card {
+        padding: 20px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .event-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+    }
+    .category-sports {
+        background-color: #d9f7be;
+    }
+    .category-music {
+        background-color: #ffd6e7;
+    }
+    .category-tech {
+        background-color: #d0f0fd;
+    }
+    .category-technology {
+        background-color: #9f78d1;
+    }
+/* ...........................page 3 End..................... */
+
+/* ...........................page 5 start..................... */
+    
+    #end2{
+        color: white;
+        background-color:rgb(7, 6, 6);
+       
+        text-align:center;
+        height: 35px;
+        transform:translateY(130px);
+    }
+       
+        /* ...........................page 5 start..................... */
+
